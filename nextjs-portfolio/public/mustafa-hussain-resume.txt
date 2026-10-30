@@ -1,0 +1,48 @@
+MUSTAFA HUSSAIN
+Indore, India
+Phone: +91-7828136552
+Email: mustafahussain7828@gmail.com
+GitHub: https://github.com/MustafaHussain54
+
+PROFESSIONAL SUMMARY
+Detail-oriented Computer Science Engineering graduate with a strong foundation in full-stack development, C++, and database management. Adept at building backend systems, designing RESTful APIs, and developing responsive front-end interfaces. Interested in leveraging automation and AI to solve problems and create efficient applications.
+
+EDUCATION
+B.Tech in Computer Science & Engineering | 2022–2026
+Shri Vaishnav Vidyapeeth Vishwavidyalaya, Indore, India | CGPA: 7.7/10
+
+Padmaja Higher Secondary School, Dewas, India
+Class XII: 91.6% (2021) | Class X: 91.6% (2019)
+
+TECHNICAL SKILLS
+Languages: C, C++, JavaScript, HTML, CSS, SQL
+Frameworks: React.js, Node.js, Express.js
+Technologies and Tools: MongoDB, REST APIs, JWT, Git, GitHub, VS Code, Postman, n8n Workflow Automation
+Coursework: OOPS, Data Structures and Algorithms (DSA), C Programming, DBMS, Operating Systems
+Soft Skills: Analytical Problem Solving, Cross-functional Teamwork, Effective Communication
+
+EXPERIENCE
+Web Development Intern | PBEL Internship provided by IBM
+- Developed responsive web applications using React.js for frontend interface design and Node.js for backend logic.
+- Collaborated on web development assignments, focusing on scalable integration and software performance.
+
+PROJECTS
+Smart Resume Evaluator | React.js, Node.js, AI Integration
+- Built an AI-integrated tool that evaluates resumes against specific job descriptions.
+- Implemented AI integration to analyze textual content and provide actionable suggestions for improving candidate profiles.
+
+YouTube-Like Backend System | Node.js, Express.js, MongoDB
+- Developed backend functionality for a video-sharing platform, including role-based access, subscriptions, and likes.
+- Designed RESTful APIs and secured sensitive endpoints using JSON Web Tokens (JWT).
+
+Employee Management System | React.js
+- Developed a responsive frontend application with modular components to manage employee records through CRUD operations.
+
+CERTIFICATIONS AND ACHIEVEMENTS
+- NPTEL — Internet of Things (Ministry of Education, IITs)
+- TakeUForward — Data Structures and Algorithms Certification
+- Solved 200+ DSA problems on LeetCode.
+- Solved 150+ DSA problems following the TakeUForward (Striver) methodology.
+
+INTERESTS
+Competitive cricket; thriller movies and cinematic storytelling.
