@@ -16,7 +16,7 @@ const HeroSection = () => (
         </p>
         <div className="flex flex-col justify-center gap-3 sm:flex-row sm:justify-start">
           <Link href="/#contact" className="rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 px-6 py-3 text-center text-white hover:opacity-90">Get in touch</Link>
-          <a href={`${process.env.NODE_ENV === "production" ? "/MY-Portfolio-MH" : ""}/mustafa-hussain-resume.txt`} download className="rounded-full border border-[#55515f] px-6 py-3 text-center text-white hover:border-pink-400">Download Resume</a>
+          <a href={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/mustafa-hussain-resume.txt`} download className="rounded-full border border-[#55515f] px-6 py-3 text-center text-white hover:border-pink-400">Download Resume</a>
         </div>
         <div className="mt-6 flex flex-wrap justify-center gap-x-5 gap-y-2 text-sm text-[#ADB7BE] sm:justify-start">
           <a className="hover:text-pink-300" href="mailto:mustafahussain7828@gmail.com">mustafahussain7828@gmail.com</a>

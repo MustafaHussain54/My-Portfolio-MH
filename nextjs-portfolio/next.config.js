@@ -1,12 +1,21 @@
 /** @type {import('next').NextConfig} */
-const repositoryBasePath = '/MY-Portfolio-MH'
+// GitHub Pages serves this project below /MY-Portfolio-MH. Vercel serves it
+// from the domain root and needs Next.js's default /_next asset paths.
+const isGitHubPagesBuild = process.env.GITHUB_ACTIONS === 'true'
 
 const nextConfig = {
-  output: 'export',
-  trailingSlash: true,
-  basePath: repositoryBasePath,
+  ...(isGitHubPagesBuild
+    ? {
+        output: 'export',
+        trailingSlash: true,
+        basePath: '/MY-Portfolio-MH',
+      }
+    : {}),
   images: {
     unoptimized: true,
+  },
+  env: {
+    NEXT_PUBLIC_BASE_PATH: isGitHubPagesBuild ? '/MY-Portfolio-MH' : '',
   },
 }
 
