@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import React, { useState } from "react";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
@@ -28,9 +29,16 @@ const Navbar = () => {
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
-          className="text-2xl md:text-5xl text-white font-semibold"
+          className="block shrink-0 leading-none"
         >
-          <span className="text-2xl font-bold tracking-tight text-white sm:text-3xl">MH<span className="text-pink-400">.</span></span>
+          <Image
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/mustafa-hussain-logo-navbar.png`}
+            alt="Mustafa Hussain logo"
+            width={480}
+            height={480}
+            priority
+            className="block h-12 w-12 object-contain md:h-14 md:w-14"
+          />
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
